@@ -16,7 +16,7 @@
 
 using namespace std;
 
-void getPoint (int &x, int &y);
+void getPoint (string prompt, int &x, int &y);
 void displayPoint (int x, int y);
 
 double getDistance (int x1, int y1, int x2, int y2);
